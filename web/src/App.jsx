@@ -10,7 +10,7 @@ import "./styles/header.scss";
 import "./styles/home.scss";
 import "./styles/footer.scss";
 import "./styles/contact.scss";
-import "./styles/mediaquery.scss";////mediaquery file must b in end
+// import "./styles/mediaquery.scss";////mediaquery file must b in end
 
 
 const App = () => {

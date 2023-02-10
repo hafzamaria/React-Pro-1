@@ -5,10 +5,10 @@ footer{
     background-color: $first;
     height: 200px;
     width: 100%;
-    display: flex;
-    justify-content: space-between;
-    // display: grid;
-    // grid-template-columns: 4fr 1fr;  ///we can use grid styling also
+    // display: flex;
+    // justify-content: space-between;
+    display: grid;
+    grid-template-columns: 4fr 1fr;  ///we can use grid styling also
     padding: 2rem;
 
     >div{
@@ -43,6 +43,20 @@ footer{
                     color: $third;
                 }
             }
+        }
+    }
+}
+
+
+@media screen and (max-width:700px){
+
+    footer{
+        height: 50vh;
+        grid-template-columns:  1fr; 
+        padding: 5rem;
+ 
+        >div{
+            align-items: center;
         }
     }
 }
